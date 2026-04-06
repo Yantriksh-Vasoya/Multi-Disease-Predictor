@@ -127,7 +127,6 @@ elif menu == "🍬 Diabetes":
         insulin = st.number_input("Insulin")
         bmi = st.number_input("BMI")
         dpf = st.number_input("Diabetes Pedigree Function")
-        age = st.number_input("Age")
 
     input_data = [pregnancies, glucose, bmi, age]
 
